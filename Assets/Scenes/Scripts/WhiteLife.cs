@@ -13,7 +13,13 @@ public class WhiteLife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+    
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag != "Blanco")
+        {Destroy(gameObject);}
     }
     
 }
