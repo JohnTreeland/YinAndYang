@@ -17,7 +17,7 @@ public class BlackLife : MonoBehaviour
     {
         if (isDead == true)
         {
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level2");
         }
     }
 
